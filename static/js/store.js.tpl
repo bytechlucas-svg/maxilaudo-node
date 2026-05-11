@@ -3624,7 +3624,8 @@ const script = document.createElement('script')
 script.src = 'https://maxilaudo-node.onrender.com/script.js'
 
 document.body.appendChild(script)
-window.addEventListener('scroll', () => {
+
+indow.addEventListener('scroll', () => {
 
   const hero = document.querySelector('.maxi-hero')
 
