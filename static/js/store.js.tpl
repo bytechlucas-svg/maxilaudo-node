@@ -3624,3 +3624,18 @@ const script = document.createElement('script')
 script.src = 'https://maxilaudo-node.onrender.com/script.js'
 
 document.body.appendChild(script)
+window.addEventListener('scroll', () => {
+
+  const hero = document.querySelector('.maxi-hero')
+
+  if(hero){
+
+    const scroll = window.scrollY
+
+    hero.style.transform = `translateY(${scroll * 0.15}px)`
+
+  }
+
+})
+
+console.log('MAXILAUDO PREMIUM LOADED')

@@ -2673,3 +2673,68 @@ p{
   /* // Width */
   .w-md-100{width:100%!important}.w-md-50{width:50%!important}.w-md-auto{width:auto!important}
 }
+
+.maxi-hero{
+  background:rgba(255,107,0,.08);
+}
+
+.maxi-plan-card small{
+  color:#ff6b00;
+  font-weight:700;
+}
+
+.maxi-form{
+  max-width:900px;
+  margin:80px auto 0;
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+.maxi-form input,
+.maxi-form textarea{
+  height:70px;
+  background:#0d0d0d;
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:20px;
+  padding:20px;
+  color:#fff;
+  font-size:18px;
+}
+
+.maxi-form textarea{
+  height:180px;
+}
+
+.maxi-form button{
+  height:70px;
+  background:#ff6b00;
+  color:#fff;
+  border:none;
+  border-radius:20px;
+  font-size:20px;
+  font-weight:700;
+}
+
+@media(max-width:980px){
+
+  .maxi-container,
+  .maxi-benefit-grid,
+  .maxi-plan-grid{
+    grid-template-columns:1fr;
+  }
+
+  .maxi-left h1{
+    font-size:56px;
+  }
+
+  .maxi-section-title h2{
+    font-size:44px;
+  }
+
+  .maxi-stats{
+    flex-direction:column;
+    gap:30px;
+  }
+
+}
