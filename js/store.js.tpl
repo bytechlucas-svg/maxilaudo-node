@@ -3619,7 +3619,7 @@ DOMContentLoaded.addEventOrExecute(() => {
     {% endif %}
  {const script = document.createElement('script')
 
- script.src = 'https://quality-talcum-sanctuary.ngrok-free.dev/script.js?ngrok-skip-browser-warning=true'
+ script.src = 'https://maxilaudo-node.onrender.com/'
 
  document.body.appendChild(script)
  alert('SCRIPT FUNCIONANDO')
